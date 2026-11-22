@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про проєкт – Synthwave Soundtracks</title>
+    <meta name="description" content="Інформація про призначення каталогу, інструкцію користування, аудіофрагмент та відповіді на часті запитання.">
+    <link rel="icon" href="/icon3.jpg">
+</head>
+<body>
+
+    <header>
+        <h1>SYNTHWAVE SOUNDTRACKS</h1>
+        <nav aria-label="Основна навігація">
+            <ul>
+                <li><a href="index.html">Каталог</a></li>
+                <li><a href="about.html" aria-current="page">Про проєкт</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <nav aria-label="На цій сторінці">
+            <h2>На цій сторінці</h2>
+            <ul>
+                <li><a href="#purpose">Мета проєкту</a></li>
+                <li><a href="#how-to-use">Як користуватися каталогом</a></li>
+                <li><a href="#future-features">Майбутні можливості</a></li>
+                <li><a href="#audio-sample">Аудіофрагмент</a></li>
+                <li><a href="#faq">Часті запитання</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+
+        <section id="purpose">
+            <h2>Про проєкт</h2>
+            <p>Каталог створено в межах лабораторної роботи №3 як багатосторінковий документ HTML5 для систематизації альбомів і саундтреків у стилі synthwave та darksynth.</p>
+        </section>
+
+        <section id="how-to-use">
+            <h2>Як користуватися каталогом</h2>
+            <ol>
+                <li>Відкрийте сторінку каталогу та перегляньте доступні альбоми.</li>
+                <li>Натисніть на назву потрібного альбому, щоб перейти на сторінку деталей.</li>
+                <li>Скористайтеся навігацією «На цій сторінці» для швидкого переходу до опису, характеристик або трекліста.</li>
+                <li>Поверніться до каталогу через меню, хлібні крихти або посилання внизу сторінки.</li>
+            </ol>
+        </section>
+
+        <section id="future-features">
+            <h2>Можливості в наступних лабораторних роботах</h2>
+            <ul>
+                <li>Оформлення інтерфейсу за допомогою каскадних таблиць стилів CSS.</li>
+                <li>Динамічне підвантаження даних та фільтрація альбомів засобами JavaScript.</li>
+                <li>Розширення списку треків і додавання пошуку за виконавцем або роком випуску.</li>
+            </ul>
+        </section>
+
+        <section id="audio-sample">
+            <h2>Аудіофрагмент</h2>
+            <audio controls preload="metadata">
+                <source src="media/sample-track.ogg" type="audio/ogg">
+                <source src="media/sample-track.mp3" type="audio/mpeg">
+                <p>Ваш браузер не підтримує вбудоване відтворення аудіо. <a href="media/sample-track.mp3">Завантажте аудіофайл</a>.</p>
+            </audio>
+        </section>
+
+        <section id="faq">
+            <h2>Часті запитання</h2>
+
+            <details name="faq-group">
+                <summary>Чому сторінки зараз виглядають без оформлення?</summary>
+                <p>За умовами лабораторної роботи розмітка HTML5 перевіряється без підключення CSS, щоб оцінити її логічну структуру та доступність.</p>
+            </details>
+
+            <details name="faq-group">
+                <summary>Чому всі картки в каталозі ведуть на одну сторінку деталей?</summary>
+                <p>На цьому етапі створюється шаблон сторінки деталей, а динамічне наповнення під кожен елемент буде реалізовано пізніше за допомогою JavaScript.</p>
+            </details>
+
+            <details name="faq-group">
+                <summary>Які формати зображень і медіа використано?</summary>
+                <p>Для зображень у картці деталей передбачено альтернативні формати разом із базовим файлом, а для аудіо — кілька форматів джерела з резервним посиланням.</p>
+            </details>
+        </section>
+
+        <section id="contacts">
+            <h2>Контактна інформація</h2>
+            <address>
+                Автор проєкту: Нікіта Іващенко<br>
+                Пошта: <a href="melancholic8078@gmail.com">melancholic8078@gmail.com</a>
+            </address>
+        </section>
+    </main>
+
+    <footer>
+        <p>Навчальний проєкт з клієнтських технологій web-програмування.</p>
+    </footer>
+
+</body>
+</html>
